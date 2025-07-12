@@ -473,3 +473,83 @@ nav{
     margin: 5px 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .upperNavbarSection,
+  .navBarButtonContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .netflixLogo {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .menuList {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .bannerContainer h2 {
+    font-size: 2.2rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  .bannerContainer h4 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+
+  .bannerContainer p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .emailInputBox,
+  .getStartedButton {
+    width: 100%;
+  }
+
+  .carouselCardConatiner,
+  .plansConatiner,
+  .reasonsConatiner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .carouselCard,
+  .planCard,
+  .reasonCard {
+    width: 90%;
+    height: auto;
+  }
+
+  .carouselImageContainer img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .faqCardsContainer {
+    padding: 0 1rem;
+  }
+
+  .faqQuestion,
+  .faqAnswer {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
