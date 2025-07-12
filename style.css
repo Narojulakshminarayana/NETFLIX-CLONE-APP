@@ -404,3 +404,72 @@ nav{
 .getStartedSection p{
     margin-bottom: 1rem
 }
+@media only screen and (max-width: 768px) {
+  .upperNavbarSection,
+  .navBarButtonContainer,
+  .inputContainer,
+  .carouselCardConatiner,
+  .plansConatiner,
+  .reasonsConatiner,
+  .faqCardsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .netflixLogo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .menuList {
+    flex-direction: column;
+    width: 90%;
+    top: 60px;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .bannerContainer h2 {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+  .bannerContainer h4 {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+  }
+
+  .emailInputBox,
+  .getStartedButton {
+    width: 100%;
+  }
+
+  .carouselCard,
+  .planCard,
+  .reasonCard {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .carouselImageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .faqQuestion,
+  .faqAnswer {
+    padding: 1rem;
+  }
+
+  .menuList li {
+    margin: 5px 0;
+  }
+}
